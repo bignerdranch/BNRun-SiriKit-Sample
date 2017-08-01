@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79D286AD1F30CFD3005457AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D286AC1F30CFD3005457AD /* AppDelegate.swift */; };
+		79D286AF1F30CFD3005457AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D286AE1F30CFD3005457AD /* ViewController.swift */; };
+		79D286B21F30CFD3005457AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79D286B01F30CFD3005457AD /* Main.storyboard */; };
+		79D286B41F30CFD3005457AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79D286B31F30CFD3005457AD /* Assets.xcassets */; };
+		79D286B71F30CFD3005457AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79D286B51F30CFD3005457AD /* LaunchScreen.storyboard */; };
+		79D286C61F30D67A005457AD /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D286C51F30D67A005457AD /* IntentHandler.swift */; };
+		79D286CA1F30D67A005457AD /* MyGreatSiriExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 79D286C31F30D67A005457AD /* MyGreatSiriExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79D286C81F30D67A005457AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79D286A11F30CFD3005457AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79D286C21F30D67A005457AD;
+			remoteInfo = MyGreatSiriExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		79D286CE1F30D67A005457AD /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				79D286CA1F30D67A005457AD /* MyGreatSiriExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		79D286A91F30CFD3005457AD /* MyGreatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyGreatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79D286AC1F30CFD3005457AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		79D286AE1F30CFD3005457AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		79D286B11F30CFD3005457AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		79D286B31F30CFD3005457AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79D286B61F30CFD3005457AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		79D286B81F30CFD3005457AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79D286BE1F30D00F005457AD /* MyGreatApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyGreatApp.entitlements; sourceTree = "<group>"; };
+		79D286C31F30D67A005457AD /* MyGreatSiriExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MyGreatSiriExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		79D286C51F30D67A005457AD /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		79D286C71F30D67A005457AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79D286A61F30CFD3005457AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79D286C01F30D67A005457AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79D286A01F30CFD3005457AD = {
+			isa = PBXGroup;
+			children = (
+				79D286AB1F30CFD3005457AD /* MyGreatApp */,
+				79D286C41F30D67A005457AD /* MyGreatSiriExtension */,
+				79D286AA1F30CFD3005457AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79D286AA1F30CFD3005457AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79D286A91F30CFD3005457AD /* MyGreatApp.app */,
+				79D286C31F30D67A005457AD /* MyGreatSiriExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79D286AB1F30CFD3005457AD /* MyGreatApp */ = {
+			isa = PBXGroup;
+			children = (
+				79D286BE1F30D00F005457AD /* MyGreatApp.entitlements */,
+				79D286AC1F30CFD3005457AD /* AppDelegate.swift */,
+				79D286AE1F30CFD3005457AD /* ViewController.swift */,
+				79D286B01F30CFD3005457AD /* Main.storyboard */,
+				79D286B31F30CFD3005457AD /* Assets.xcassets */,
+				79D286B51F30CFD3005457AD /* LaunchScreen.storyboard */,
+				79D286B81F30CFD3005457AD /* Info.plist */,
+			);
+			path = MyGreatApp;
+			sourceTree = "<group>";
+		};
+		79D286C41F30D67A005457AD /* MyGreatSiriExtension */ = {
+			isa = PBXGroup;
+			children = (
+				79D286C51F30D67A005457AD /* IntentHandler.swift */,
+				79D286C71F30D67A005457AD /* Info.plist */,
+			);
+			path = MyGreatSiriExtension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79D286A81F30CFD3005457AD /* MyGreatApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79D286BB1F30CFD3005457AD /* Build configuration list for PBXNativeTarget "MyGreatApp" */;
+			buildPhases = (
+				79D286A51F30CFD3005457AD /* Sources */,
+				79D286A61F30CFD3005457AD /* Frameworks */,
+				79D286A71F30CFD3005457AD /* Resources */,
+				79D286CE1F30D67A005457AD /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79D286C91F30D67A005457AD /* PBXTargetDependency */,
+			);
+			name = MyGreatApp;
+			productName = MyGreatApp;
+			productReference = 79D286A91F30CFD3005457AD /* MyGreatApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79D286C21F30D67A005457AD /* MyGreatSiriExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79D286CD1F30D67A005457AD /* Build configuration list for PBXNativeTarget "MyGreatSiriExtension" */;
+			buildPhases = (
+				79D286BF1F30D67A005457AD /* Sources */,
+				79D286C01F30D67A005457AD /* Frameworks */,
+				79D286C11F30D67A005457AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyGreatSiriExtension;
+			productName = MyGreatSiriExtension;
+			productReference = 79D286C31F30D67A005457AD /* MyGreatSiriExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79D286A11F30CFD3005457AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Big Nerd Ranch, LLC";
+				TargetAttributes = {
+					79D286A81F30CFD3005457AD = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 439592V3LM;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Siri = {
+								enabled = 1;
+							};
+						};
+					};
+					79D286C21F30D67A005457AD = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 439592V3LM;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 79D286A41F30CFD3005457AD /* Build configuration list for PBXProject "MyGreatApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79D286A01F30CFD3005457AD;
+			productRefGroup = 79D286AA1F30CFD3005457AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79D286A81F30CFD3005457AD /* MyGreatApp */,
+				79D286C21F30D67A005457AD /* MyGreatSiriExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79D286A71F30CFD3005457AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79D286B71F30CFD3005457AD /* LaunchScreen.storyboard in Resources */,
+				79D286B41F30CFD3005457AD /* Assets.xcassets in Resources */,
+				79D286B21F30CFD3005457AD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79D286C11F30D67A005457AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79D286A51F30CFD3005457AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79D286AF1F30CFD3005457AD /* ViewController.swift in Sources */,
+				79D286AD1F30CFD3005457AD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79D286BF1F30D67A005457AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79D286C61F30D67A005457AD /* IntentHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79D286C91F30D67A005457AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79D286C21F30D67A005457AD /* MyGreatSiriExtension */;
+			targetProxy = 79D286C81F30D67A005457AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		79D286B01F30CFD3005457AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79D286B11F30CFD3005457AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		79D286B51F30CFD3005457AD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79D286B61F30CFD3005457AD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79D286B91F30CFD3005457AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79D286BA1F30CFD3005457AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79D286BC1F30CFD3005457AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MyGreatApp/MyGreatApp.entitlements;
+				DEVELOPMENT_TEAM = 439592V3LM;
+				INFOPLIST_FILE = MyGreatApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bignerdranch.sirikit.MyGreatApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		79D286BD1F30CFD3005457AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MyGreatApp/MyGreatApp.entitlements;
+				DEVELOPMENT_TEAM = 439592V3LM;
+				INFOPLIST_FILE = MyGreatApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bignerdranch.sirikit.MyGreatApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		79D286CB1F30D67A005457AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 439592V3LM;
+				INFOPLIST_FILE = MyGreatSiriExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bignerdranch.sirikit.MyGreatApp.MyGreatSiriExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		79D286CC1F30D67A005457AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 439592V3LM;
+				INFOPLIST_FILE = MyGreatSiriExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bignerdranch.sirikit.MyGreatApp.MyGreatSiriExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79D286A41F30CFD3005457AD /* Build configuration list for PBXProject "MyGreatApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79D286B91F30CFD3005457AD /* Debug */,
+				79D286BA1F30CFD3005457AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79D286BB1F30CFD3005457AD /* Build configuration list for PBXNativeTarget "MyGreatApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79D286BC1F30CFD3005457AD /* Debug */,
+				79D286BD1F30CFD3005457AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79D286CD1F30D67A005457AD /* Build configuration list for PBXNativeTarget "MyGreatSiriExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79D286CB1F30D67A005457AD /* Debug */,
+				79D286CC1F30D67A005457AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79D286A11F30CFD3005457AD /* Project object */;
+}
