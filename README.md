@@ -2,6 +2,8 @@
 
 Sample code for the Big Nerd Ranch blog posts on integrating SiriKit into your iOS app.
 
+Created with Xcode 9 and Swift 4.
+
 * Part-01
   * A basic project stationery for adding SiriKit (Intents Extension) to an app.
 * Part-02
