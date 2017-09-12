@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IntentPhrases</key>
+	<array>
+		<dict>
+			<key>IntentName</key>
+			<string>INStartWorkoutIntent</string>
+			<key>IntentExamples</key>
+			<array>
+				<string>Start a run in Big Nerd Run</string>
+				<string>Start running with Big Nerd Run</string>
+				<string>Jog for 10 miles</string>
+				<string>Go for a 5 mile Big Nerd Run</string>
+				<string>Start swimming with Big Nerd Run</string>
+				<string>I would walk 500 miles in Big Nerd Run</string>
+				<string>Start an open swim in Big Nerd Run</string>
+			</array>
+		</dict>
+		<dict>
+			<key>IntentName</key>
+			<string>INEndWorkoutIntent</string>
+			<key>IntentExamples</key>
+			<array>
+				<string>Stop workout</string>
+				<string>End workout in Big Nerd Run</string>
+				<string>Stop jogging</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

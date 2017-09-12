@@ -10,3 +10,6 @@ Created with Xcode 9 and Swift 4.
   * An incremental demonstration, in 4 steps, of taking an existing app and adding a working Intents Extension to it.
 * Part-03
   * Spit-and-polish for your Siri support.
+* Part-04
+  * Adding a custom UI via a Intents UI Extension.
+  
